@@ -4,7 +4,8 @@ const nextConfig = {
   images: {
     disableStaticImages: true,
     dangerouslyAllowSVG: true,
-    loader: 'akamai'
+    loader: 'akamai',
+    path:''
   },
   basePath: '/my-portfolio',
 }
